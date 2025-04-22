@@ -41,8 +41,6 @@ Follow the instructions at Ollama's official site to install Ollama.
 
 Ensure the LLaMA 3.1 model is pulled and running:
 
-ollama pull llama3.1
-
 ollama run llama3.1
 
 Verify that Ollama is accessible at http://localhost:11434.
@@ -65,17 +63,8 @@ The conversation will appear in the chat box, with user messages in blue and bot
 
 Project Structure
 
-ollama-chatbot/
+![Screenshot 2025-04-22 152757](https://github.com/user-attachments/assets/2256dfdd-9a10-45f6-a1c0-73faa9b45cf2)
 
-├── chatbot_app.py      # Flask application code
-
-├── templates/
-
-│   └── chat.html       # HTML template for the chat interface
-
-├── README.md           # Project documentation
-
-└── venv/               # Virtual environment (not tracked in Git)
 
 Notes
 
